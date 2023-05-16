@@ -1,0 +1,15 @@
+mat-toolbar{
+    justify-content: space-between;
+}
+.content{
+    padding: 32px;
+}
+/* .background-image {
+    width: 80%;
+    height: 80vh;
+    background-image: url("../assets/images/quiz.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+  
+  } */

@@ -1,0 +1,18 @@
+.sign-up-link{
+    font-size: 1.2rem;
+    margin-left:8px ;
+}
+.container {
+    display: flex;
+    justify-content: center;
+  }
+
+  .sign-up {
+    text-decoration: none;
+    /* border: 1px solid black; */
+    padding: 5px 10px;
+    background-color: rgb(36, 77, 56); 
+    color: white;
+    border-radius: 6px;
+    box-shadow: 2px 2px 4px rgba(0, 0, 0, 0.4);
+  }

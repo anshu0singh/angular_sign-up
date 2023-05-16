@@ -1,0 +1,22 @@
+<div class="heading">
+<h1 *ngIf="user$|async as user"> START NEW QUIZZ {{user.displayName}}!</h1>
+</div>
+<div>
+   
+    <form>
+      <div>
+        <label for="title">Quiz Title:</label>
+        <input type="text" id="title" [(ngModel)]=" quiztitle" name=" quiztitle" required>
+      </div>
+      <div>
+        <label for="description">Quiz Description:</label>
+        <textarea id="description" [(ngModel)]="quizDescription" name="quizDescription" required></textarea>
+      </div>
+      <div>
+        <label for="coverPicture">Cover Picture:</label>
+        <input type="file" id="coverPicture" (change)="onFileSelected($event)" accept="image/*" required>
+      </div>
+     <br>
+      <button type="submit"  (click)="submitForm()">Submit</button>
+    </form>
+  </div>
